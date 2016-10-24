@@ -1,0 +1,19 @@
+.container {
+  max-width: 800px;
+}
+
+.scrolling-tabs-container {
+  margin: 0 auto;
+}
+
+.scrolling-tabs-header {
+  font-size: 33px;
+  margin: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.scrolling-tabs-subheader {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+

@@ -1,0 +1,43 @@
+.scrtabs-tab-container * {
+  box-sizing: border-box;
+}
+
+.scrtabs-tab-container {
+  height: 42px;
+  max-width: 600px;
+}
+
+.scrtabs-tabs-fixed-container {
+  float: left;
+  height: 42px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrtabs-tabs-movable-container {
+  position: relative;
+}
+
+.scrtabs-tab-scroll-arrow {
+  border: none;
+  color: #428bca;
+  cursor: pointer;
+  float: left;
+  font-size: 12px;
+  height: 42px;
+  margin-bottom: -1px;
+  padding-left: 2px;
+  padding-top: 13px;
+  width: 20px;
+}
+
+.scrtabs-tab-scroll-arrow:hover {
+  background-color: #eeeeee;
+}
+
+.scrtabs-tabs-fixed-container ul.nav-tabs {
+  height: 41px;
+}
+.scrtabs-tabs-fixed-container ul.nav-tabs > li {
+  white-space: nowrap;
+}
